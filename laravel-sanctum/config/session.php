@@ -153,7 +153,8 @@ return [
     |
     */
 
-    'domain' => env('SESSION_DOMAIN', null),
+    // 'domain' => env('SESSION_DOMAIN', null),    
+    'domain' => env('SESSION_DOMAIN', 'http://192.168.56.1:4002'),
 
     /*
     |--------------------------------------------------------------------------
